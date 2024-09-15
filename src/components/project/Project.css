@@ -23,7 +23,7 @@
 
 .project-list {
     display: flex;
-    gap: 2vw; /* Separación entre tarjetas basada en el ancho de la ventana */
+    gap: 3.2vw; /* Separación entre tarjetas basada en el ancho de la ventana */
     overflow-x: scroll;
     scroll-behavior: smooth;
     padding: 2vh 0.2vw; /* Padding basado en el tamaño de la ventana */

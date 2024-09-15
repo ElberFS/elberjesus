@@ -3,6 +3,9 @@ import "./Project.css";
 
 // Imágenes de proyectos
 import project1Image from '../../assets/img/project01.png';
+import project2Image from '../../assets/img/GestorTareasProject.png';
+import project3Image from '../../assets/img/ColegioPorject.png';
+import project4Image from '../../assets/img/reparacionProject.png';
 
 // Iconos de tecnologías e interfaz
 import htmlIcon from "../../assets/svg/html.svg";
@@ -13,18 +16,11 @@ import leftArrow from "../../assets/svg/left-arrow.svg";
 import rightArrow from "../../assets/svg/right-arrow.svg";
 import filterIcon from "../../assets/svg/filter.svg";
 import reactIcon from '../../assets/svg/react.svg';
-import excelIcon from '../../assets/svg/excel.svg';
-import powerbiIcon from '../../assets/svg/powerbi.svg';
-import gitIcon from '../../assets/svg/git.svg';
-import htmllIcon from '../../assets/svg/html.svg';
 import tailwindIcon from '../../assets/svg/tailwind.svg';
 import mysqlIcon from '../../assets/svg/mysql.svg';
 import laravelIcon from '../../assets/svg/laravel.svg';
 import phpIcon from '../../assets/svg/php.svg';
 import bootstrapIcon from '../../assets/svg/bootstrap.svg';
-import postgresqlIcon from '../../assets/svg/postgresql.svg';
-import sqlIcon from '../../assets/svg/sql.svg';
-import mongodbIcon from '../../assets/svg/mongodb.svg';
 
 const Project = () => {
     // Estado para las tecnologías seleccionadas y la visibilidad de los filtros
@@ -42,21 +38,21 @@ const Project = () => {
         },
         {
             title: "Gestión de Tareas API",
-            image: "../../assets/img/frontend-project2.png",
+            image: project2Image,
             description: "API Rest simple hecha con Laravel, utilizando MySQL como base de datos, con funciones como registrar, editar, actualizar y eliminar.",
             icons: [laravelIcon , phpIcon , mysqlIcon ],
             link: "https://github.com/ElberFS/GestorTareas.git"
         },
         {
             title: "Gestor de Área de Soportes",
-            image: "../../assets/img/frontend-project3.png",
+            image: project3Image,
             description: "(Activo) Proyecto en Laravel con base de datos en MySQL, utilizando Tailwind y Blade para las vistas. Este proyecto sistematiza el proceso de soporte, desde la solicitud de una reparación hasta la entrega de esta.",
             icons: [laravelIcon , phpIcon ,tailwindIcon, mysqlIcon ],
             link: "https://github.com/ElberFS/Sistema_Historial_Equipo.git"
         },
         {
             title: "Sistema de Colegio",
-            image: project1Image,
+            image: project4Image,
             description: "Sistema desarrollado sin frameworks, utilizando solo PHP, HTML, CSS y JavaScript. Gestiona la asistencia, evaluaciones, cursos, docentes y horarios, con base de datos en phpMyAdmin de MySQL.",
             icons: [phpIcon, htmlIcon, jsIcon, cssIcon, bootstrapIcon],
             link: "https://github.com/ElberFS/Sistema-Web-Academico-main.git"
