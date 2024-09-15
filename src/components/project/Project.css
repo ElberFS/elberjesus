@@ -1,0 +1,270 @@
+/* Estilos generales de la sección de proyectos */
+.project-section {
+    text-align: center;
+    padding: 5vh; /* Ajuste de padding basado en altura de la ventana */
+    font-size: 1.25rem; /* Utilizamos rem para que se ajuste según el tamaño base de la fuente */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fffbfb;
+}
+
+.project-section h2 {
+    color: #00668c;
+    margin: 0.1rem 0 1vh; /* Márgenes relativos */
+    font-size: 2.5vw; /* Tamaño de fuente basado en el ancho de la ventana */
+}
+
+/* Carrusel de proyectos */
+.project-carousel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 5vw; /* Padding basado en el ancho de la ventana */
+}
+
+.project-list {
+    display: flex;
+    gap: 2vw; /* Separación entre tarjetas basada en el ancho de la ventana */
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding: 2vh 0.2vw; /* Padding basado en el tamaño de la ventana */
+    width: 100%;
+    scrollbar-width: none;
+}
+
+/* Oculta la barra de scroll en navegadores basados en WebKit */
+.project-list::-webkit-scrollbar {
+    display: none;
+}
+
+/* Tarjetas de proyectos */
+.project-card {
+    background-color: #ffffff;
+    border-radius: 1vw;
+    padding: 2vh;
+    width: 23vw; /* Ancho basado en el ancho de la ventana */
+    height: 55vh; /* Altura basada en la altura de la ventana */
+    text-align: center;
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+
+.project-image {
+    width: 80%;
+    height: 20vh; /* Altura basada en la ventana */
+    object-fit: cover;
+    border-radius: 1vw;
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.2);
+}
+
+.project-title {
+    font-size: 1.2vw; /* Tamaño de fuente basado en el ancho de la ventana */
+    margin: 1vh 0;
+}
+
+.project-description {
+    font-size: 1vw;
+    color: #666;
+    margin-bottom: 1.5vh;
+}
+
+/* Iconos de tecnologías */
+.tech-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1vw; /* Espacio basado en el ancho de la ventana */
+    margin-bottom: 2vh;
+}
+
+.tech-icons img {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+/* Icono de GitHub */
+.github-icon {
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-top: 1.5vh;
+}
+
+/* Botones de desplazamiento */
+.scroll-button {
+    background: none;
+    border: none;
+    font-size: 3vw;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.scroll-button.left {
+    left: -2.5vw;
+}
+
+.scroll-button.right {
+    right: -2.5vw;
+}
+
+/* Filtro de tecnologías */
+.filter-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.filter-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 1.5vw;
+}
+
+.tech-filters {
+    display: flex;
+    gap: 1vw;
+    margin-left: 2vw;
+}
+
+.tech-filters img {
+    width: 2.5vw;
+    height: 2.5vw;
+    cursor: pointer;
+}
+
+.tech-filters img.selected {
+    border: 0.2vw solid #000;
+    border-radius: 50%;
+}
+
+/* Estilos responsivos para tablets*/
+@media (min-width: 600px) and (max-width: 1024px) {
+    .project-section {
+        padding: 20px;
+    }
+
+    .project-section h2 {
+        font-size: 24px;
+    }
+
+    .project-carousel {
+        justify-content: center;
+        padding: 10px 40px; 
+    }
+
+    .project-list {
+        gap: 5rem;
+        padding: 20px 20px;
+        width: 100%; 
+    }
+
+    .project-card {
+        width: 88%; 
+        max-width: 500px; 
+        height: 500px;
+    }
+
+    .project-image {
+        width: 90%;
+        height: 220px;
+    }
+
+    .project-title {
+        font-size: 20px;
+    }
+
+    .project-description {
+        font-size: 16px;
+    }
+
+    .tech-icons img,
+    .filter-button img,
+    .tech-filters img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .github-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .scroll-button {
+        font-size: 25px;
+    }
+
+    .scroll-button.left {
+        left: -22px; 
+    }
+
+    .scroll-button.right {
+        right: -22px;
+    }
+}
+
+/* Estilos responsivos para celulares */
+@media (max-width: 430px) {
+    .project-section {
+        padding: 20px;
+    }
+
+    .project-section h2 {
+        font-size: 24px;
+    }
+
+    .project-carousel {
+        justify-content: center;
+        padding: 0 20px; 
+    }
+
+    .project-list {
+        gap: 20px;
+        padding: 10px 10px;
+        width: 100%; 
+    }
+
+    .project-card {
+        width: 88%; 
+        max-width: 300px; 
+    }
+
+    .project-image {
+        width: 90%;
+        height: 150px;
+    }
+
+    .project-title {
+        font-size: 16px;
+    }
+
+    .project-description {
+        font-size: 12px;
+    }
+
+    .tech-icons img,
+    .filter-button img,
+    .tech-filters img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .github-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .scroll-button {
+        font-size: 25px;
+    }
+
+    .scroll-button.left {
+        left: -22px; 
+    }
+
+    .scroll-button.right {
+        right: -22px;
+    }
+}

@@ -1,0 +1,61 @@
+vhtml {
+    scroll-behavior: smooth;
+}
+
+/* Estilos generales de la navegación y secciones */
+section {
+    scroll-margin-top: 70px; /* Ajuste del margen para la navegación fija */
+}
+
+.nav {
+    background-color: #fdfdfd;
+    padding: 1rem 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 4px 6px rgba(49, 49, 49, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Estilo de la lista y elementos de navegación */
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.nav-link {
+    color: #070707;
+    text-decoration: none;
+    font-size: 1.1rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.nav-link:hover {
+    color: #4797ff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+}
+
+/* Adaptaciones para pantallas pequeñas */
+@media (max-width: 400px) {
+    .nav-list {
+        gap: 0.01rem;
+        margin-left: 23rem;
+    }
+
+    .nav-link {
+        font-size: 0.7rem;
+    }
+}
