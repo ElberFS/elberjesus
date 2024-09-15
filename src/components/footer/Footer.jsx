@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import whatsappIcon from '../../assets/svg/whatsapp.svg';
+import twitterIcon from '../../assets/svg/twitter.svg';
 import linkedinIcon from '../../assets/svg/linkedin.svg';
 import telegramIcon from '../../assets/svg/telegram.svg';
 
@@ -10,7 +10,7 @@ const Footer = () => {
             <p className="footer-text">"Imagina, programa y crea el futuro."</p>
             <div className="footer-links">
                 <a href="https://wa.me/yournumber" target="_blank" rel="noopener noreferrer">
-                    <img src={whatsappIcon} alt="WhatsApp" className="footer-icon" /> 
+                    <img src={twitterIcon} alt="twitter" className="footer-icon" /> 
                 </a>
                 <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
                     <img src={linkedinIcon} alt="LinkedIn" className="footer-icon" /> 

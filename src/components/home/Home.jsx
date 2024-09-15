@@ -4,6 +4,7 @@ import profileImage from '../../assets/img/profile.png';
 import cv from '../../assets/pdf/CV_QuirozCoronelElberJesus.pdf';
 import whatsappIcon from "../../assets/svg/whatsapp.svg";
 import linkedinIcon from "../../assets/svg/linkedin.svg";
+import telegramIcon from "../../assets/svg/telegram.svg";
 
 // Componente principal de la sección "Home"
 const Home = () => (
@@ -31,11 +32,11 @@ const Home = () => (
 
                         {/* Íconos de redes sociales */}
                         <div className="icons-container">
-                            <a href="https://www.linkedin.com/in/tu-perfil/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://pe.linkedin.com/in/elber-jesus-quiroz-coronel-578021288" target="_blank" rel="noopener noreferrer">
                                 <img src={linkedinIcon} alt="LinkedIn" className="icon" />
                             </a>
-                            <a href="https://wa.me/tu-numero" target="_blank" rel="noopener noreferrer">
-                                <img src={whatsappIcon} alt="WhatsApp" className="icon" />
+                            <a href="https://t.me/ElberJesus" target="_blank" rel="noopener noreferrer">
+                                <img src={telegramIcon} alt="telegram" className="icon" />
                             </a>
                         </div>
                     </div>

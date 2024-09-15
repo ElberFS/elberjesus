@@ -6,7 +6,7 @@ const Nav = () => (
     <nav className="nav">
         <ul className="nav-list">
             {/* Elementos del menú de navegación */}
-            {['home', 'skill', 'project', 'contact'].map((section, index) => (
+            {['home', 'skill', 'project'].map((section, index) => (
                 <li key={index} className="nav-item">
                     <a href={`#${section}`} className="nav-link">
                         {/* Texto visible en el menú */}

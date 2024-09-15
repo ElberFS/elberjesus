@@ -13,6 +13,18 @@ import leftArrow from "../../assets/svg/left-arrow.svg";
 import rightArrow from "../../assets/svg/right-arrow.svg";
 import filterIcon from "../../assets/svg/filter.svg";
 import reactIcon from '../../assets/svg/react.svg';
+import excelIcon from '../../assets/svg/excel.svg';
+import powerbiIcon from '../../assets/svg/powerbi.svg';
+import gitIcon from '../../assets/svg/git.svg';
+import htmllIcon from '../../assets/svg/html.svg';
+import tailwindIcon from '../../assets/svg/tailwind.svg';
+import mysqlIcon from '../../assets/svg/mysql.svg';
+import laravelIcon from '../../assets/svg/laravel.svg';
+import phpIcon from '../../assets/svg/php.svg';
+import bootstrapIcon from '../../assets/svg/bootstrap.svg';
+import postgresqlIcon from '../../assets/svg/postgresql.svg';
+import sqlIcon from '../../assets/svg/sql.svg';
+import mongodbIcon from '../../assets/svg/mongodb.svg';
 
 const Project = () => {
     // Estado para las tecnologías seleccionadas y la visibilidad de los filtros
@@ -24,45 +36,32 @@ const Project = () => {
         {
             title: "Portafolio Web",
             image: project1Image,
-            description: "Portafolio creado desde cero con React y Vite. Se utilizaron HTML, CSS, y JavaScript para estructura, estilo e interactividad. React facilita componentes dinámicos y Vite acelera el desarrollo.",
+            description: "Portafolio creado desde cero con React y Vite. Se utilizaron HTML, CSS y JavaScript para la estructura, el estilo y la interactividad. React facilita la creación de componentes dinámicos y Vite acelera el desarrollo.",
             icons: [reactIcon, htmlIcon, jsIcon, cssIcon],
-            link: "https://github.com/ElberFS/portafolio-elber",
+            link: "https://github.com/ElberFS/elberjesus.git"
         },
         {
-            title: "Project 02",
+            title: "Gestión de Tareas API",
             image: "../../assets/img/frontend-project2.png",
-            description: "Descripción del proyecto 02.",
-            icons: [htmlIcon, cssIcon, jsIcon],
-            link: "https://github.com/usuario/frontend-project2",
+            description: "API Rest simple hecha con Laravel, utilizando MySQL como base de datos, con funciones como registrar, editar, actualizar y eliminar.",
+            icons: [laravelIcon , phpIcon , mysqlIcon ],
+            link: "https://github.com/ElberFS/GestorTareas.git"
         },
         {
-            title: "Project 03",
+            title: "Gestor de Área de Soportes",
             image: "../../assets/img/frontend-project3.png",
-            description: "Descripción del proyecto 03.",
-            icons: [htmlIcon, cssIcon, jsIcon],
-            link: "https://github.com/usuario/frontend-project3",
+            description: "(Activo) Proyecto en Laravel con base de datos en MySQL, utilizando Tailwind y Blade para las vistas. Este proyecto sistematiza el proceso de soporte, desde la solicitud de una reparación hasta la entrega de esta.",
+            icons: [laravelIcon , phpIcon ,tailwindIcon, mysqlIcon ],
+            link: "https://github.com/ElberFS/Sistema_Historial_Equipo.git"
         },
         {
-            title: "Portafolio Web",
+            title: "Sistema de Colegio",
             image: project1Image,
-            description: "Portafolio creado desde cero con React y Vite. Se utilizaron HTML, CSS, y JavaScript para estructura, estilo e interactividad. React facilita componentes dinámicos y Vite acelera el desarrollo.",
-            icons: [reactIcon, htmlIcon, jsIcon, cssIcon],
-            link: "https://github.com/ElberFS/portafolio-elber",
-        },
-        {
-            title: "Project 02",
-            image: "../../assets/img/frontend-project2.png",
-            description: "Descripción del proyecto 02.",
-            icons: [htmlIcon, cssIcon, jsIcon],
-            link: "https://github.com/usuario/frontend-project2",
-        },
-        {
-            title: "Project 03",
-            image: "../../assets/img/frontend-project3.png",
-            description: "Descripción del proyecto 03.",
-            icons: [htmlIcon, cssIcon, jsIcon],
-            link: "https://github.com/usuario/frontend-project3",
-        },
+            description: "Sistema desarrollado sin frameworks, utilizando solo PHP, HTML, CSS y JavaScript. Gestiona la asistencia, evaluaciones, cursos, docentes y horarios, con base de datos en phpMyAdmin de MySQL.",
+            icons: [phpIcon, htmlIcon, jsIcon, cssIcon, bootstrapIcon],
+            link: "https://github.com/ElberFS/Sistema-Web-Academico-main.git"
+        }
+        
         // Más proyectos pueden añadirse aquí...
     ];
 
