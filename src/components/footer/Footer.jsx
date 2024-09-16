@@ -9,13 +9,13 @@ const Footer = () => {
         <footer className="footer">
             <p className="footer-text">"Imagina, programa y crea el futuro."</p>
             <div className="footer-links">
-                <a href="https://wa.me/yournumber" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/elber_jesus9?s=09" target="_blank" rel="noopener noreferrer">
                     <img src={twitterIcon} alt="twitter" className="footer-icon" /> 
                 </a>
-                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                <a href="https://pe.linkedin.com/in/elber-jesus-quiroz-coronel-578021288" target="_blank" rel="noopener noreferrer">
                     <img src={linkedinIcon} alt="LinkedIn" className="footer-icon" /> 
                 </a>
-                <a href="https://telegram.me/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://t.me/ElberJesus" target="_blank" rel="noopener noreferrer">
                     <img src={telegramIcon} alt="Telegram" className="footer-icon" /> 
                 </a>
             </div>

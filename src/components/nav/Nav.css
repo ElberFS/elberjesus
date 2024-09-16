@@ -4,7 +4,7 @@ vhtml {
 
 /* Estilos generales de la navegación y secciones */
 section {
-    scroll-margin-top: 70px; /* Ajuste del margen para la navegación fija */
+    scroll-margin-top: 70px; 
 }
 
 .nav {
@@ -49,10 +49,10 @@ section {
 }
 
 /* Adaptaciones para pantallas pequeñas */
-@media (max-width: 400px) {
+@media (max-width: 430px) {
     .nav-list {
         gap: 0.01rem;
-        margin-left: 23rem;
+        transform: translateX(10px);
     }
 
     .nav-link {

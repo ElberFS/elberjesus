@@ -6,11 +6,15 @@ const Nav = () => (
     <nav className="nav">
         <ul className="nav-list">
             {/* Elementos del menú de navegación */}
-            {['home', 'skill', 'project'].map((section, index) => (
+            {[
+                { section: 'home', label: 'Inicio' },
+                { section: 'skill', label: 'Habilidades' },
+                { section: 'project', label: 'Proyectos' }
+            ].map((item, index) => (
                 <li key={index} className="nav-item">
-                    <a href={`#${section}`} className="nav-link">
+                    <a href={`#${item.section}`} className="nav-link">
                         {/* Texto visible en el menú */}
-                        {section.charAt(0).toUpperCase() + section.slice(1)}
+                        {item.label}
                     </a>
                 </li>
             ))}
