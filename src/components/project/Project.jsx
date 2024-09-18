@@ -45,14 +45,14 @@ const Project = () => {
         },
         {
             title: "Gestor de Área de Soportes",
-            image: project3Image,
+            image: project4Image,
             description: "(Activo) Proyecto en Laravel con base de datos en MySQL, utilizando Tailwind y Blade para las vistas. Este proyecto sistematiza el proceso de soporte, desde la solicitud de una reparación hasta la entrega de esta.",
             icons: [laravelIcon , phpIcon ,tailwindIcon, mysqlIcon ],
             link: "https://github.com/ElberFS/Sistema_Historial_Equipo.git"
         },
         {
             title: "Sistema de Colegio",
-            image: project4Image,
+            image: project3Image,
             description: "Sistema desarrollado sin frameworks, utilizando solo PHP, HTML, CSS y JavaScript. Gestiona la asistencia, evaluaciones, cursos, docentes y horarios, con base de datos en phpMyAdmin de MySQL.",
             icons: [phpIcon, htmlIcon, jsIcon, cssIcon, bootstrapIcon],
             link: "https://github.com/ElberFS/Sistema-Web-Academico-main.git"
