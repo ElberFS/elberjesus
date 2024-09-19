@@ -104,7 +104,7 @@ const Project = () => {
                 {/* Mostrar u ocultar filtros */}
                 {showFilters && (
                     <div className="tech-filters">
-                        {[htmlIcon, cssIcon, jsIcon, reactIcon].map((icon, index) => (
+                        {[htmlIcon, cssIcon, jsIcon,laravelIcon,bootstrapIcon ,mysqlIcon, reactIcon].map((icon, index) => (
                             <img
                                 key={index}
                                 src={icon}
