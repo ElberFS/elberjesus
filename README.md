@@ -1,13 +1,5 @@
 # **Portafolio**
 
-<p align="center">
-  <a href="https://reactjs.org" target="_blank">
-    <img src="https://reactjs.org/logo-og.png" width="200" alt="React Logo">
-  </a>
-  <a href="https://vitejs.dev" target="_blank">
-    <img src="https://vitejs.dev/logo.svg" width="200" alt="Vite Logo">
-  </a>
-</p>
 
 
 ## **Descripción**
