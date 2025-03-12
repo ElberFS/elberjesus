@@ -54,13 +54,7 @@ const Skills = () => {
             title: 'Habilidades de Backend',
             description: 'Tengo conocimientos en varios sistemas de gestión de bases de datos relacionales como SQL, MySQL y PostgreSQL, además de bases de datos no relacionales como MongoDB. También manejo PHP, un lenguaje de programación, y frameworks como Laravel, con el cual desarrollo APIs REST. Utilizo Git para la gestión de versiones en mis proyectos.',
             icons: [phpIcon , laravelIcon , mysqlIcon , sqlIcon , postgresqlIcon, mongodbIcon, gitIcon],
-        } ,
-        {
-            image: analysisImage,
-            title: 'Habilidades como Analista de datos',
-            description: 'Tengo experiencia en análisis de datos utilizando herramientas como Power BI y Excel para la visualización y procesamiento de datos. Manejo técnicas de limpieza, transformación y análisis para obtener insights que apoyen la toma de decisiones estratégicas.',
-            icons: [excelIcon , powerbiIcon],
-        }
+        } 
     ];
 
     return (
